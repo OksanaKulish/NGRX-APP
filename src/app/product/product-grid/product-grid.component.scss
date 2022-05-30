@@ -1,0 +1,28 @@
+.coffee {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.container {
+  padding: 3%;
+  max-width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: ghostwhite;
+}
+
+.row-is-clicked {
+  font-weight: bold;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: red;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}

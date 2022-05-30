@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <mat-icon>verified_user</mat-icon>
+  <h2>IBM Canada - Angular Developer Assessment</h2>
+  <button mat-icon-button [matMenuTriggerFor]="menu" class="user__profile">
+    <div class="userName__title">Oksana Kulish</div>
+    <mat-icon>account_circle</mat-icon>
+    <mat-icon>keyboard_arrow_down</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>asterisk.hu@gmail.com</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>
+
